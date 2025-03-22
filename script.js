@@ -284,8 +284,8 @@ properties.push(new Property("Howrah Railway Station", 200, "Railroad", 25, "#00
 properties.push(new Property("Chhatrapati Shivaji Terminus", 200, "Railroad", 25, "#000000"));
 
 // Utilities
-properties.push(new Property("Electric Company", 150, "Utility", 0, "#999999"));
-properties.push(new Property("Water Works", 150, "Utility", 0, "#999999"));
+properties.push(new Property("Electric Company", 150, "Utility", "4*dice or 10*dice if both utilities owned" , "#999999"));
+properties.push(new Property("Water Works", 150, "Utility", "4*dice or 10*dice if both utilities owned", "#999999"));
 }
 
 // Add transaction confirmation functions
